@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "less": "4.2.0"
+  },
+  "scripts" : {
+    "less" : "lessc css/styles.less css/styles.css",
+    "onchange": "onchange \"css/**.less\" -- npm run less",
+    "watch": "npm run onchange"
+  }
+}

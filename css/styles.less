@@ -1,0 +1,101 @@
+@btn-color: #fdac1f;
+@secondary-color: #de4827;
+@bg-color: #f5e7da;
+
+body {
+    background-color: @bg-color;
+    background-size: cover;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    h1 {
+        font-size: 19px;
+    }
+
+    #logo {
+        width: 150px;
+    }
+
+    #search-btn {
+        background-color: @btn-color;
+        color: white;
+
+        &:hover {
+            background-color: @secondary-color;
+            color: white;
+        }
+    }
+
+    .items {
+        .item {
+            cursor: pointer;
+            width: calc(25% - 10px);
+            overflow: hidden;
+            border-radius: 5px;
+            position: relative;
+            box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.5);
+
+            .img-container {
+                overflow: hidden;
+                // max-height: 215px;
+
+                img {
+                    width: 100%;
+                    transition: transform 0.5s ease-in-out;
+
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+                }
+            }
+
+            .description {
+                background: white;
+                padding: 10px;
+                height: 176px;
+            }
+
+            .category {
+                display: inline-block;
+                text-transform: uppercase;
+                color: white;
+                background: @secondary-color;
+                border-radius: 3px;
+                font-size: 11px;
+                overflow: hidden;
+                padding: 2px 6px;
+                text-align: center;
+                font-weight: 500;
+            }
+
+            .read-more {
+                padding: 2px 6px;
+                background-color: @btn-color;
+                color: white;
+
+                &:hover {
+                    background-color: @secondary-color;
+                }
+            }
+
+            .origin {
+                font-style: italic;
+            }
+
+            .title {
+                font-weight: 500;
+                font-size: 22px;
+            }
+        }
+    }
+
+    .hidden-link {
+        width: 100%;
+        height: 100%;
+        display: block;
+         top: 0;
+        left: 0;
+        position: absolute;
+    }
+}
