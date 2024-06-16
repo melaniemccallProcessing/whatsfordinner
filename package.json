@@ -1,12 +1,19 @@
 {
+  "name": "whatsfordinner",
+  "version": "1.0.0",
+  "description": "This is a front-end project for my portfolio.",
+  "source": "index.html",
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "parcel": "^2.12.0"
   },
   "devDependencies": {
     "less": "4.2.0"
   },
-  "scripts" : {
-    "less" : "lessc css/styles.less css/styles.css",
+  "scripts": {
+     "start": "parcel --open",
+    "build": "parcel build",
+    "less": "lessc css/styles.less css/styles.css",
     "onchange": "onchange \"css/**.less\" -- npm run less",
     "watch": "npm run onchange"
   }
