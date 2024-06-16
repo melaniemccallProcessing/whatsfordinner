@@ -38,7 +38,6 @@ function displayItems(items) {
                           </div>`;
         itemsContainer.appendChild(item);
         }
-        // console.log(items.data[i]);
     }
 }
 
