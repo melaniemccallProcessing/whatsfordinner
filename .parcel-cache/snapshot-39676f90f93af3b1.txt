@@ -91,7 +91,7 @@
 104C:\whatsfordinner\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\moveGroupAttrsToElems.js133630550461334203 0
 58C:\whatsfordinner\node_modules\cosmiconfig\dist\types.d.ts133630550463731530 0
 66C:\whatsfordinner\node_modules\svgo\plugins\cleanupListOfValues.js133630550463054631 0
-28C:\whatsfordinner\index.html133630562851343903 0
+28C:\whatsfordinner\index.html133630564042369345 0
 46C:\whatsfordinner\node_modules\hosted-git-info133630515339912492 1
 58C:\whatsfordinner\node_modules\load-json-file\node_modules133630515336988833 1
 98C:\whatsfordinner\node_modules\@parcel\transformer-posthtml\node_modules\semver\functions\patch.js133630550461238902 0
@@ -8545,14 +8545,14 @@
 28C:\whatsfordinner\img\bg.png133630112510692571 0
 38C:\whatsfordinner\img\cooking-logo.png133630170065130159 0
 48C:\whatsfordinner\dist\cooking-logo.1e39b6cf.png133630553845543992 0
+48C:\whatsfordinner\dist\cooking-logo.9d4e2664.png133630562859354917 0
 44C:\whatsfordinner\dist\index.57b23658.js.map133630553879907113 0
 41C:\whatsfordinner\dist\index.5f3d8fdf.css133630553879752386 0
 45C:\whatsfordinner\dist\index.5f3d8fdf.css.map133630553879907113 0
 44C:\whatsfordinner\dist\index.6aa8c763.js.map133630553879922177 0
+45C:\whatsfordinner\dist\index.748ad148.css.map133630562860169753 0
 45C:\whatsfordinner\dist\index.9c8a5066.css.map133630553879907113 0
-32C:\whatsfordinner\css\styles.css133630513048860774 0
-48C:\whatsfordinner\dist\cooking-logo.9d4e2664.png133630562859354917 0
+45C:\whatsfordinner\dist\index.ab0485ab.css.map133630562860179726 0
 40C:\whatsfordinner\dist\index.eec845d5.js133630562859404790 0
 44C:\whatsfordinner\dist\index.fd40e163.js.map133630562859835682 0
-45C:\whatsfordinner\dist\index.748ad148.css.map133630562860169753 0
-45C:\whatsfordinner\dist\index.ab0485ab.css.map133630562860179726 0
+32C:\whatsfordinner\css\styles.css133630513048860774 0
